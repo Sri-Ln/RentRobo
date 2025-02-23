@@ -1,0 +1,19 @@
+{
+	"LANDING": "/",
+	"LOGIN":"/Login",
+	"CUSTOMER_HOME": "/Home",
+	"SERVICES": "/Services",
+	"SERVICE_PROVIDER_DASHBOARD": "/Servicepartners",
+    "ADMIN": "/Adminconsole",
+	"PARTNER_BOOKING":"/Services/Booking",
+	"SERVICES_PROVIDERS":"/Services/Providers",
+	"PAYMENT_GATEWAY":"/Payment-gateway",
+	"BOOKING_DETAILS":"/BookingDetails",
+	"PAYMENT_SUCCESS":"/Payment-success",
+	"PAYMENT_FAILURE":"/Payment-failure",
+	"PROFILE":"/Profile",
+	"BOOKING_HISTORY":"/Booking-History",
+	"SHARE_DETAILS":"/share",
+	"SHARE_BOOKING_HISTORY":"/share/booking-history",
+	"RECOMMENDATION":"/Recommendation"
+}
