@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <!-- Blue background -->
+  <rect width="200" height="60" rx="10" fill="#007BFF" />
+  
+  <!-- Text "fixfinder" -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#FFFFFF">
+    fixfinder
+  </text>
+</svg>
