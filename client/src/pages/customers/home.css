@@ -1,0 +1,129 @@
+.landing-page {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* padding: 20px; */
+}
+
+.header .logo {
+    font-size: 48px;
+    color: #4285f4;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/* 
+.logo{
+    height: 200px !important;
+} */
+
+.search-input {
+    width: 40%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 45px;
+    left: 30%;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    z-index: 10;
+    max-height: 200px;
+    overflow-y: auto;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+.services-list {
+    margin: 0px 0px 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card-customer {
+    width: 400px; /* Adjust width to match the reference */
+    padding: 1px; /* Add padding for spacing */
+    border: 1px solid #e0e0e0; /* Light border */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    background-color: #ffffff; /* White background */
+    text-align: left; /* Align text to the left */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: flex-start; /* Align content at the top */
+    align-items: flex-start; /* Align items to the start */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover transition */
+}
+
+.service-card-customer img {
+    width: 100%; /* Full width of the container */
+    height: 200px; /* Fixed height for consistency */
+    border-radius: 8px; /* Rounded corners for the image */
+    object-fit: cover; /* Crop the image to fit */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+.service-card-customer h6 {
+    font-size: 18px; /* Adjust font size */
+    font-weight: bold; /* Bold title */
+    margin: 8px 0; /* Space around the title */
+}
+
+.service-card-customer p {
+    font-size: 14px; /* Smaller font for description */
+    color: #666; /* Muted text color */
+    margin: 0; /* Remove default margins */
+    line-height: 1.5; /* Improve readability */
+}
+
+.service-card-customer:hover {
+    cursor: pointer; /* Pointer on hover */
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+}
+
+
+.slick-track {
+    display: flex !important; /* Ensure it's flex for alignment */
+    justify-content: center !important; /* Center the content */
+}
+
+.slider-container .slick-track {
+    justify-content: center !important;
+}
+
+/* Customize the Previous Arrow */
+.slick-prev::before {
+    color: #283593; /* Set the arrow color */
+    font-size: 20px; /* Optional: Adjust size */
+    opacity: 1; /* Make sure it's fully visible */
+}
+
+/* Customize the Next Arrow */
+.slick-next::before {
+    color: #283593; /* Set the arrow color */
+    font-size: 20px; /* Optional: Adjust size */
+    opacity: 1; /* Make sure it's fully visible */
+}
+
+.slick-prev, .slick-next {
+    z-index: 1; /* Ensure arrows are above the content */
+    width: 40px; /* Increase width */
+    height: 40px; /* Increase height */
+}
