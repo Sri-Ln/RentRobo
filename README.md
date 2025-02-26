@@ -29,20 +29,29 @@ Follow these instructions to set up and run the project locally.
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/AI-Based-Relocation-Assistant.git
+git clone https://github.com/Sri-Ln/RentRobo.git
 ```
 #### 2. Navigate to the Project Repository
 ```
-cd AI-Based-Relocation-Assistant
+cd RentRobo
 ```
-#### 3. Run the client app
+#### 3. Navigate to the client directory and install dependencies
 ```
-cd ../client
+cd client
 npm install
 ```
-#### 4. Run the server app
+#### 4. Install server dependencies
+```
+pip install -r requirements.txt
+```
+#### 5. Run the server app by navigating to the server directory in first terminal
 ```
 cd server
+python app.py
+```
+#### 6. Run the client app by navigating to the client directory in second terminal
+```
+cd client
 python app.py
 ```
 
