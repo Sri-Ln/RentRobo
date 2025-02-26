@@ -1,4 +1,4 @@
-# AI-Based Relocation Assistant
+# AI-based Relocation Assistant
 
 ## Project Overview
 
@@ -52,7 +52,21 @@ python app.py
 #### 6. Run the client app by navigating to the client directory in second terminal
 ```
 cd client
-python app.py
+npm start
 ```
+
+## Screenshots  
+
+Here are some previews of the AI-Based Relocation Assistant in action:  
+
+### Home Page  
+![Home Page](https://github.com/user-attachments/assets/53aa3135-bd7d-4cb3-8209-a609aea6d5c4)  
+
+### Preferences Selection  
+![Preferences Selection](https://github.com/user-attachments/assets/b0f7fd02-5ce4-42ef-ab9d-e62ff06fae66)
+
+
+### Recommended Properties  
+![Recommended Properties](https://github.com/user-attachments/assets/fe719cc2-419e-4885-ba67-1be6decb1c24) 
 
 
